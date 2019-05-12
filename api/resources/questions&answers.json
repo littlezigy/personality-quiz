@@ -1,0 +1,90 @@
+[
+    {
+        "question": "When do you feel your best?",
+        "answers": {
+            "a":"In the morning",
+            "b":"During the afternoon and early evening",
+            "c":"Late at night"
+        }
+    }, {
+        "question": "You usually walk ",
+        "answers": {
+            "a":"fairly fast, with long steps",
+            "b":"fairly fast, with short, quick steps",
+            "c":"less fast head up, looking the world in the face",
+            "d":"less fast, head down",
+            "e":"very slowly"
+        }
+    }, {
+        "question" : "When talking to people you ",
+        "answers": {
+            "a":"have your hands clasped",
+            "b":"have one or both your hands on your hips",
+            "c":"touch or push the person to whom you are talking",
+            "d":"play with your ear, touch your chin, or smooth your hair",
+            "e":"stand with your arms folded "
+        }
+    }, {
+        "question": "When relaxing, you sit with",
+        "answers": {
+            "a":"your knees bent with your legs neatly side by side",
+            "b":"your legs crossed",
+            "c":"your legs stretched out and straight",
+            "d":"one leg curled under you"
+        }
+    }, {
+
+        "question": "When something really amuses you, you react with",
+        "answers": {
+            "a":"a big, appreciative laugh",
+            "b":"a laugh, but not a loud one",
+            "c":"a quiet chuckle",
+            "d":"a sheepish smile"
+        }
+    }, {
+
+        "question": "When you go to a party or social gathering you... ",
+        "answers": {
+            "a":"make a loud entrance so everyone notices you",
+            "b":"make a quiet entrance so everyone notices you",
+            "c":"make the quietest entrance, trying to stay unnoticed"
+        }
+    }, {
+        "question": "You're working very hard and you're interrupted.Do you...",
+        "answers": {
+            "a":"welcome the break",
+            "b":"feel extremely irritated",
+            "c":"vary between these two extremes"
+        }
+    }, {
+        "question": "Which of the following colors do you like the most?",
+        "answers": {
+            "a":"red or orange",
+            "b":"black",
+            "c":"yellow or light blue ",
+            "d":"green",
+            "e":"dark blue or purple",
+            "f":"white",
+            "g":"brown or gray"
+        }
+    }, {
+        "question": "In those last few moments before going to sleep, you lie.. ",
+        "answers": {
+            "a":"stretched out on your back",
+            "b":"stretched out face down on your stomach",
+            "c":"on your side, slightly curled",
+            "d":"with your head on one arm",
+            "e":"with your head under the covers"
+        }
+    }, {
+        "question": "You often dream that you are...",
+        "answers": {
+            "a":"falling",
+            "b":"fighting or struggling",
+            "c":"searching for something or somebody",
+            "d":"flying or floating",
+            "e":"you usually have dreamless sleep",
+            "f":"your dreams are always pleasant"
+        }
+    }
+]
