@@ -1,5 +1,5 @@
 'use strict'
 module.exports = {
   NODE_ENV: '"production"',
-  VUE_APP_API: '"http://localhost:1337"'
+  VUE_APP_API: '"https://suwa-quiz.herokuapp.com"'
 }
