@@ -16,6 +16,7 @@ module.exports = {
         for(i = 0; i<scores.length; i++) {
             console.group(i);
             for(answer in scores[i].answers) {
+                console.log("Answer: ", answer, " equal to: ", req.body[i]);
                 if(answer == req.body[i]) {
                     console.log(`Getting score... ${req.body[i]} = ${scores[i].answers[answer]}`);
                     totalScore+= scores[i].answers[answer];

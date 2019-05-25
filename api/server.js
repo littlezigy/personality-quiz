@@ -15,6 +15,6 @@ app.get('/', (req, res)=> {
 	res.send("Node JS Quiz app. Author: Adesuwa Tolu Dawodu");
 });
 
-app.listen(process.env.PORT || 1337, ()=> {
-	console.log("We are live on port 1337");
+app.listen(process.env.PORT || 1338, ()=> {
+	console.log("We are live on port 1338");
 });

@@ -7,7 +7,7 @@
             "c":"Late at night"
         }
     }, {
-        "question": "You usually walk ",
+        "question": "You usually walk",
         "answers": {
             "a":"fairly fast, with long steps",
             "b":"fairly fast, with short, quick steps",
@@ -16,13 +16,13 @@
             "e":"very slowly"
         }
     }, {
-        "question" : "When talking to people you ",
+        "question" : "When talking to people you",
         "answers": {
             "a":"have your hands clasped",
             "b":"have one or both your hands on your hips",
             "c":"touch or push the person to whom you are talking",
             "d":"play with your ear, touch your chin, or smooth your hair",
-            "e":"stand with your arms folded "
+            "e":"stand with your arms folded"
         }
     }, {
         "question": "When relaxing, you sit with",
@@ -43,7 +43,7 @@
         }
     }, {
 
-        "question": "When you go to a party or social gathering you... ",
+        "question": "When you go to a party or social gathering you...",
         "answers": {
             "a":"make a loud entrance so everyone notices you",
             "b":"make a quiet entrance so everyone notices you",
@@ -61,14 +61,14 @@
         "answers": {
             "a":"red or orange",
             "b":"black",
-            "c":"yellow or light blue ",
+            "c":"yellow or light blue",
             "d":"green",
             "e":"dark blue or purple",
             "f":"white",
             "g":"brown or gray"
         }
     }, {
-        "question": "In those last few moments before going to sleep, you lie.. ",
+        "question": "In those last few moments before going to sleep, you lie..",
         "answers": {
             "a":"stretched out on your back",
             "b":"stretched out face down on your stomach",

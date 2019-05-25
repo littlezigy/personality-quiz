@@ -1,7 +1,8 @@
 <template>
-	<div>
-		<p>Your results are...</p>
-		<div>{{info}}</div>
+	<div class = 'page'>
+		<p class = 'has-text-centered is-size-3'>Your results are...</p>
+		<img src = 'http://images.fineartamerica.com/images-medium-large-5/beautiful-african-american-fairy-adriane-j.jpg'/>
+		<div class = 'is-size-4'>{{info}}</div>
 	</div>
 </template>
 
@@ -29,3 +30,10 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+img {
+	margin: auto;
+	width: 50vh;
+}
+</style>

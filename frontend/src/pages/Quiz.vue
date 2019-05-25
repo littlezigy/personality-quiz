@@ -3,15 +3,15 @@
 		<p class= 'text-big'>Take this quiz.</p>
 		<div id = 'quiz'>
 			<button class = 'button is-dark has-text-white-ter' @click = 'goBack' :disabled = 'questionindex==0'>Previous Question</button>
-			<p>{{data.question}}</p>
+			<p class = 'has-text-centered is-size-3'>{{data.question}}</p>
 			<ol>
 				<li v-for = 'answer in data.answers' :key = 'answer'>
 					<input type = 'radio' name = 'selected-answer' v-model = 'selected' :value = 'answer'>{{answer}}
 				</li>
 			</ol>
-			<div id = action>
+			<div id = 'action'>
 				<button id = 'done' class = 'button has-text-white-ter is-success' v-if='submit' @click = 'finishQuiz' :disabled = 'selected===null'>Submit</button>
-				<button id = 'continue' class = 'is-primary button' v-else @click = 'nextQuestion' :disabled = 'selected===null'>Next Question</button>
+				<button id = 'continue' class = 'is-centered is-primary button' v-else @click = 'nextQuestion' :disabled = 'selected===null'>Next Question</button>
 			</div>
 		</div>
 	</div>
@@ -87,10 +87,11 @@ ol {
 	justify-content: center;
 	border: 1.5px solid gray;
 	width: 70vw;
-	height: 45vh;
+	min-height: 45vh;
+	padding: 3em;
 }
 .page {
-	height: 80vh;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -101,11 +102,9 @@ button {
 }
 #action {
 	display: flex;
+	justify-content: center;
 }
 #done {
-	justify-self: end;
-}
-#continue{
-	justify-self: center;
+	margin-left: auto;
 }
 </style>
